@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabarak University</title>
+    <style>
+        h2{
+            color: #00008b;
+            border-bottom: #00008b solid 3px;
+            font-family: "Tahoma";
+        }
+        #my_Choice{
+            color: #8A2E2E;
+            font-style: italic;
+            background-color: #F6FFF6;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>KABARAK UNIVERSITY</h1>
+<body style="margin:7.5%;background-image: url(https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fbackground&opi=89978449);">
+    <h1 style="color: #660000;border-bottom: solid 5px #660000;padding: 5px;">KABARAK UNIVERSITY</h1>
     <h2>ABOUT</h2>
         <h3>History</h3>
-        <p>Kabarak University is a <b>private</b> <strong>institution</strong> of higher education in Kenya, established in 2002 by the second President of Kenya, H.E. Daniel Toroitich Arap Moi.</p>
+        <p id="my_Choice">Kabarak University is a <b>private</b> <strong>institution</strong> of higher education in Kenya, established in 2002 by the second President of Kenya, H.E. Daniel Toroitich Arap Moi.</p>
         <h3>Location</h3>
          The University is located in Nakuru County, about 20 km from Nakuru town and 12 km off the <i>Nakuru-Eldama Ravine road</i>. 
     <h2>ACADEMIC PROGRAMS</h2>
-    <h3>Schools</h3>
+    <h3 class="my_class">Schools</h3>
     <p>
         Academic Programs in Kabarak University are spread across the following <u>seven schools</u>:
     </p>
     <ul>
-        <li>School of Business & Economics</li>
+        <li id="my_Choice">School of Business & Economics</li>
         <li>School of Education, Humanities & Social Sciences</li>
         <li>School of Law</li>
         <li>School of Medicine & Health Sciences</li>
@@ -26,12 +39,12 @@
         <li>School of Pharmacy</li>
         <li>School of Science, Engineering & Technology</li>
     </ul>
-    <h2>ACCOMODATION</h2>
+    <h2 style="font-style: italic;">ACCOMODATION</h2>
     <h3>Hostels</h3>
     <!--THIS IS A TABLE-->
         <table border="1" cellspacing="0" cellpadding="10">
             <tr>
-                <th>Hostel</th>
+                <th id="my_Choice">Hostel</th>
                 <th>#</th>
                 <th>Name</th>
                 <th>Population</th>
@@ -39,13 +52,13 @@
             <tr>
                 <td rowspan="4">Men</td>
                 <td>1</td>
-                <td>Elementaita</td>
+                <td style="background-color: red;">Elementaita</td>
                 <td>250</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Baringo</td>
-                <td>250</td>
+                <td style="background-color: black;color: white;">250</td>
             </tr>
             <tr>
                 <td>3</td>
@@ -54,13 +67,13 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Bogoria</td>
+                <td style="background-color: bisque;">Bogoria</td>
                 <td>250</td>
             </tr>
             <tr>
                 <td rowspan="5">Ladies</td>
                 <td>1</td>
-                <td>Kabon</td>
+                <td style="background-color:blue;">Kabon</td>
                 <td>130</td>
             </tr>
             <tr>
@@ -86,13 +99,13 @@
         </table>
     <h2>Contact Us</h2>
     <form>
-        <label for="name">Name:</label><br>
+        <label for="name" id="my_Choice">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" id="my_Choice" value="Submit">
     </form>
 </body>
 <footer>
